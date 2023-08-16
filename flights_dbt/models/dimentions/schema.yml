@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: dim_aircraft
+    columns:
+      - name: aircraft_code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_airport
+    columns:
+      - name: airport_code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

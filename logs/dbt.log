@@ -1,0 +1,26 @@
+[0m19:38:06.400873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001393A7EF010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013937D02750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001393A7E3390>]}
+
+
+============================== 19:38:06.406217 | 5e5ba807-e479-4aab-8aa6-939770cff997 ==============================
+[0m19:38:06.406217 [info ] [MainThread]: Running with dbt=1.5.2
+[0m19:38:06.407119 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\idosh\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m19:38:06.408688 [debug] [MainThread]: Starter project path: C:\Users\idosh\anaconda3\envs\my_env\Lib\site-packages\dbt\include\starter_project
+[0m19:38:09.966059 [info ] [MainThread]: 
+Your new dbt project "flights_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:38:09.967060 [debug] [MainThread]: Command `dbt init` succeeded at 19:38:09.967060 after 3.59 seconds
+[0m19:38:09.967060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139383AA590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139346B6DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139346B4350>]}
+[0m19:38:09.968094 [debug] [MainThread]: Flushing usage events
